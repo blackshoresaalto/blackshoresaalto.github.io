@@ -1,0 +1,58 @@
+#container {
+    width: 60vw;
+    padding-top: 100px;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#bio {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+    #bio p {
+        text-align: left;
+    }
+
+    #bio img {
+        width: 100%;
+    }
+
+#menu {
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+    #menu a {
+        color: #F5E9DD;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    #menu img {
+        max-width: 100%;
+        border-radius: 10px;
+        border: 0px solid #F5E9DD;
+        margin-bottom: 15px;
+    }
+
+    #menu:hover > .m {
+        opacity: 0.25;
+    }
+
+    #menu:hover > .m:hover {
+        opacity: 1;
+    }
+
+.divider {
+    width: 100%;
+    height: 50px;
+}
+
+.m img {
+    width: 70%;
+}

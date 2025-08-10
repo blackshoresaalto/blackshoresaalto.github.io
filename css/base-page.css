@@ -1,0 +1,153 @@
+nav {
+    background-color: #231E1B;
+    width: 100vw;
+    padding: 10px 30px 10px 20px;
+    color: #A1ADB5;
+    position: fixed;
+    border-bottom: 1px solid #2D2622;
+    z-index: 999;
+}
+
+#name {
+    font-size: 15pt;
+    float: left;
+    padding: 6px 12px;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+#name a {
+    font: 16pt "Homemade Apple", cursive;
+    color: #A1ADB5;
+}
+
+nav a {
+    color: #A1ADB5;
+    border-bottom: none;
+}
+
+nav a:hover {
+    color: #A1ADB5;
+    opacity: 0.25;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 14px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 5px;
+    padding: 3px 6px;
+}
+
+nav .current-page {
+    opacity: 0.25;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    width: 100vw;
+    padding: 200px 20% 100px 20%;
+}
+
+footer {
+    background-color: #231E1B;
+    width: 100vw;
+    padding: 40px 30px;
+    border-top: 1px solid #2D2622;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+footer .curly-quote {
+    height: 40pt;
+    margin-right: 10px;
+    margin-top: -10pt;
+    font-size: 60pt;
+    opacity: 0.25;
+    float: left;
+    overflow: hidden;
+}
+
+footer .quote {
+    margin: 0;
+}
+
+footer .quote-credit {
+    margin: 0;
+    opacity: 0.5;
+}
+
+footer ul {
+    padding-left: 20px;
+    border-left: 1px solid #A1ADB5;
+}
+
+footer li a {
+    color: #F5E9DD;
+    border-bottom: none;
+}
+
+    footer li a:hover {
+        color: #F5E9DD;
+        opacity: 0.25;
+        text-decoration: none;
+    }
+
+footer .somed {
+    margin-top: 20px;
+    word-spacing: 10pt;
+}
+
+footer .somed a {
+    border-bottom: none;
+}
+
+footer .somed i {
+    background-color: #A1ADB5;
+    width: 25pt;
+    height: 25pt;
+    color: #2d1f18;
+    font-size: 15pt;
+    border-radius: 100%;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+footer .somed i:hover {
+    background-color: #2d1f18;
+    color: #A1ADB5;
+    font-size: 15pt;
+}
+
+footer .credit {
+    bottom: 0;
+    margin: 10px 0px 0px 0px;
+    font-size: 8pt;
+}
+
+footer .current-page {
+    opacity: 0.25;
+}

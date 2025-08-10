@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2024;
+    color: #e3e5e8;
+    font: 14pt "Lato", sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+    color: #D2C06E;
+}
+
+a {
+    color: #DEDFE0;
+    border-bottom: 1px dashed #A1ADB5;
+    text-decoration: none;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #DEDFE0;
+    border-bottom: none;
+    opacity: .25;
+}
